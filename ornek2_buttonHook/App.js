@@ -1,16 +1,23 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import Sayac from "./Sayac";
+import ButtonRNE from "./ButtonRNE";
+import Kart from "./Kart";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Sayac />
+      <ButtonRNE />
+
+      <Kart />
+      {/* <Sayac /> */}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
+    width: 400,
+    height: 500,
     flex: 1,
     backgroundColor: "lavenderblush",
     justifyContent: "center",
